@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "agent-context-optimizer",
+  "description": "Production context discipline for Claude Code: reduce repeated discovery, preserve verified project memory, scope changes, verify focused work, and produce reliable handoffs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "uiuxnick"
+  },
+  "homepage": "https://github.com/uiuxnick/agent-efficiency-kit",
+  "repository": "https://github.com/uiuxnick/agent-efficiency-kit",
+  "license": "MIT"
+}

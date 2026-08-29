@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-context-tools",
+  "owner": {
+    "name": "uiuxnick"
+  },
+  "description": "AI agent skills for Claude Code, OpenAI Codex, OpenCode, and Google Antigravity. Improve context efficiency, task planning, persistent memory, verification, handoffs, and production-quality coding workflows.",
+  "plugins": [
+    {
+      "name": "agent-context-optimizer",
+      "source": "./plugins/agent-context-optimizer",
+      "description": "Production context discipline for AI coding agents: scope work, preserve verified memory, verify bounded changes, and create clean handoffs.",
+      "version": "1.0.0",
+      "category": "developer-tools",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "opencode",
+        "antigravity",
+        "context-engineering",
+        "developer-productivity"
+      ]
+    }
+  ]
+}
